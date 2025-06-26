@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Chint00</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="icon" href="elem/webicon.png" type="image/png" />
+  <meta name="description" content="Chint00 is an AI-powered chatbot designed to solve Python-related queries. Built with modern web technologies, it features a sleek dark mode UI and interactive learning capabilities.">
+</head>
+<body>
+
+  <!-- 📱 Mobile Header -->
+  <div class="mobile-header">
+    <span id="mobileMenuBtn">&#9776;</span>
+    <img src="elem/newlogo.png" class="mobile-logo" alt="Chintoo Logo" />
+  </div>
+
+  <!-- 💻 Main Container -->
+  <div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <h1>About <span id="collapseBtn">&#10005;</span></h1>
+      </div>
+      <div class="about-content" id="aboutContent">
+        <p id="aboutText">
+          <strong>Meet Chint00: A Next-Gen Python AI Chatbot by Piyush Kumar Tiwari</strong><br><br>
+          In a digital world ruled by innovation and creativity, one name is emerging quietly yet powerfully—<strong>Chint00</strong>. Designed and developed by <strong>Piyush Kumar Tiwari</strong>, a passionate computer science student and budding software engineer, Chint00 is more than just an AI chatbot. It is a symbol of determination, learning, and a dream to create something as powerful and helpful as ChatGPT itself.<br><br>
+          <strong>Chint00</strong> is a Python-powered AI chatbot inspired by modern conversational AI models like ChatGPT...<br><br>
+          <b><em>"Built by me, guided by AI, made for everyone." </b>— Piyush Kumar Tiwari</em><br>
+        </p>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/codepiyusss" target="_blank"><img src="elem/github.svg" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/piyush-kumar-tiwari-b984a0356/" target="_blank"><img src="elem/linkedin.svg" alt="LinkedIn" /></a>
+        <a href="https://instagram.com/piyush_genz" target="_blank"><img src="elem/instagram.svg" alt="Instagram" /></a>
+      </div>
+    </div>
+
+    <!-- Main Chat Window -->
+    <div class="main">
+      <div class="logo" onclick="window.location.reload()">
+        <img src="elem/newlogo.png" alt="main logo" />
+      </div>
+
+      <div class="chat-container" id="chatContainer">
+        <!-- Messages appear here -->
+      </div>
+
+      <div class="input-area">
+        <textarea id="userInput" placeholder="Ask about Python..." rows="1"></textarea>
+        <button id="sendBtn">
+          <img src="elem/sendBtn.png" alt="Send" />
+        </button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
