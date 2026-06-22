@@ -112,8 +112,8 @@
       color: white;
       padding: 20px;
       position: relative;
-      padding-left: 90px; /* Adjusted for logo */
-      padding-right: 90px; /* Adjusted for collapse button */
+      padding-left: 90px;
+      padding-right: 90px;
     }
     .logo {
         position: absolute; 
