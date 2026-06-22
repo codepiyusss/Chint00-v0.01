@@ -6,7 +6,7 @@ import traceback
 app = Flask(__name__)
 CORS(app)
 
-genai.configure(api_key="ADD UR API KEY")
+genai.configure(api_key="ADD Your API KEY") # ADD YOUR API KEY OF GOOGLE GEMINI TO PROCED
 
 model = genai.GenerativeModel('gemini-pro')
 
