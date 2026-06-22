@@ -18,7 +18,7 @@ def ask():
 
         print(f" Incoming question: {question}")
 
-        elif not question:
+        if not question:
             return jsonify({"answer": "No question provided"}), 400
 
         response = model.generate_content(question)
